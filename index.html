@@ -1,0 +1,317 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="style.css" type="text/css" media="all">
+<title>図解即戦力 暗号と認証のしくみと理論がこれ1冊でしっかりわかる教科書</title>
+</head>
+<body>
+<h1>『図解即戦力 暗号と認証のしくみと理論がこれ1冊でしっかりわかる教科書』</h1>
+<p>本書は公開鍵暗号や署名などの理論を基礎から詳しく解説し、
+TLS1.3やHTTP/3, FIDOなどの新しい技術も紹介します。<br>
+更にブロックチェーンで注目されている秘密計算、ゼロ知識証明、量子コンピュータなど最先端の話題も扱います。</p>
+
+<h2>対象読者</h2>
+<ul>
+<li>暗号化と署名の違いがよく分からない人
+<li>TLS 1.3で利用される暗号技術を理解したい人
+<li>下記トピックに興味のある人
+</ul>
+
+<div id="left">
+などなど。
+
+
+<h2>トピック</h2>
+<ul>
+<li>DH鍵共有, 公開鍵暗号, 楕円曲線暗号, XTS-AES, OAuth, AEAD, AES-GCM
+<li>ChaCha20-Poly1305, TLS 1.3, QUIC, デジタル署名, ECDSA, FIDO, WPA3
+<li>ブロックチェーン, 秘密計算, 準同型暗号, ゼロ知識証明, 量子コンピュータ
+</ul>
+
+<h2>購入</h2>
+<ul>
+<li><a href="https://gihyo.jp/book/2021/978-4-297-12307-9">技術評論社 単行本</a> / <a href="https://gihyo.jp/dp/ebook/2021/978-4-297-12308-6">電子版</a></li>
+<li><a href="https://www.amazon.co.jp/dp/429712307X/">Amazon 単行本</a> / <a href="https://www.amazon.co.jp/dp/B09G2T3X1W/">Kindle版</a></li>
+<li><a href="errata.html">正誤表(未登録)</a></li>
+</ul>
+
+
+<h2>目次</h2>
+
+<h2>1章 暗号の基礎知識</h2>
+  <h3>01 情報セキュリティ</3>
+    <p class="item">情報セキュリティの三要素</p>
+    <p class="item">情報セキュリティと暗号技術</p>
+    <p class="item">利便性とコスト</p>
+    <p class="item">追加された要件</p>
+  <h3>02 暗号</3>
+    <p class="item">暗号とは</p>
+    <p class="item">よい暗号と使い方</p>
+    <p class="item">暗号の動向を知る</p>
+  <h3>03 認証</3>
+    <p class="item">パスワードによる認証</p>
+    <p class="item">パスワード攻撃者の能力</p>
+    <p class="item">パスワードの攻撃手法</p>
+    <p class="item">認証の分類</p>
+    <p class="item">認可</p>
+    <p class="item">OAuth</p>
+  <h3>04 古典暗号</3>
+    <p class="item">シフト暗号</p>
+    <p class="item">換字式暗号</p>
+    <p class="item">符号化</p>
+<h2>2章 アルゴリズムと安全性</h2>
+  <h3>05 アルゴリズム</3>
+    <p class="item">アルゴリズムとは</p>
+    <p class="item">アルゴリズムのステップ数</p>
+    <p class="item">効率のよい探索</p>
+  <h3>06 安全性</3>
+    <p class="item">O記法</p>
+    <p class="item">ビットと表現可能な範囲</p>
+    <p class="item">セキュリティパラメータ</p>
+  <h3>07 暗号技術の危殆化</3>
+    <p class="item">コンピュータの性能向上と暗号の安全性</p>
+    <p class="item">運用監視暗号リストと推奨暗号リスト</p>
+    <p class="item">危殆化の問題点</p>
+<h2>3章 共通鍵暗号</h2>
+  <h3>08 共通鍵暗号</3>
+    <p class="item">共通鍵暗号とは</p>
+    <p class="item">共通鍵暗号に求められる安全性</p>
+    <p class="item">共通鍵暗号の種類</p>
+  <h3>09 ビットと排他的論理和</3>
+    <p class="item">1ビットの基本変換</p>
+    <p class="item">論理積と論理和</p>
+    <p class="item">排他的論理和</p>
+    <p class="item">交換法則と結合法則</p>
+    <p class="item">排他的論理和の重要な性質</p>
+  <h3>10 乱数</3>
+    <p class="item">真の乱数</p>
+    <p class="item">コンピュータで扱う乱数</p>
+    <p class="item">擬似乱数</p>
+    <p class="item">擬似ランダム関数</p>
+  <h3>11 ワンタイムパッド</3>
+    <p class="item">排他的論理和とワンタイムパッド</p>
+    <p class="item">情報理論的安全性</p>
+    <p class="item">ワンタイムパッドの欠点</p>
+  <h3>12 ストリーム暗号</3>
+    <p class="item">ワンタイムパッドとストリーム暗号</p>
+    <p class="item">計算量的安全性</p>
+    <p class="item">ストリーム暗号の歴史</p>
+    <p class="item">ナンス</p>
+    <p class="item">ChaCha20</p>
+  <h3>13 ブロック暗号</3>
+    <p class="item">ブロック暗号</p>
+    <p class="item">ブロック暗号の歴史</p>
+    <p class="item">AESの概要</p>
+    <p class="item">AESの初期設定</p>
+    <p class="item">ラウンド関数</p>
+    <p class="item">AES-NI</p>
+  <h3>14 確率的アルゴリズム</3>
+    <p class="item">いつでも同じ暗号文は危険</p>
+    <p class="item">確率的アルゴリズム</p>
+  <h3>15 暗号化モード</3>
+    <p class="item">ECB（Electronic CodeBook）モード</p>
+    <p class="item">CBC（Cipher Block Chaining）モード</p>
+    <p class="item">CTR（CounTeR）モード</p>
+    <p class="item">CBCモードとCTRモードの比較</p>
+    <p class="item">CBCモードに対する攻撃</p>
+  <h3>16 ディスクの暗号化</3>
+    <p class="item">TPM</p>
+    <p class="item">ディスクの構造</p>
+    <p class="item">XTS-AESの概要</p>
+    <p class="item">XTS-AESの暗号化</p>
+    <p class="item">XTS-AESの安全性</p>
+    <p class="item">自己暗号化ドライブ</p>
+  <h3>17 暗号文の改竄とリプレイ攻撃</3>
+    <p class="item">暗号文の改竄</p>
+    <p class="item">リプレイ攻撃</p>
+<h2>4章 公開鍵暗号</h2>
+  <h3>18 鍵共有</3>
+    <p class="item">現代暗号の始まり</p>
+    <p class="item">ベキ乗</p>
+    <p class="item">DH鍵共有</p>
+    <p class="item">DH鍵共有の安全性</p>
+    <p class="item">DLPと一方向性関数</p>
+    <p class="item">ベキ乗の計算方法</p>
+  <h3>19 有限体と拡大体</3>
+    <p class="item">有限体</p>
+    <p class="item">拡大体</p>
+  <h3>20 公開鍵暗号</3>
+    <p class="item">公開鍵暗号の概念</p>
+    <p class="item">共通鍵暗号との違い</p>
+    <p class="item">強秘匿性と頑強性</p>
+    <p class="item">ハイブリッド暗号</p>
+  <h3>21 RSA暗号</3>
+    <p class="item">RSA暗号の具体例</p>
+    <p class="item">RSA暗号の作り方</p>
+    <p class="item">RSA暗号の安全性</p>
+  <h3>22 OpenSSLによるRSA暗号の鍵の作り方</3>
+    <p class="item">OpenSSL</p>
+    <p class="item">RSA暗号の秘密鍵と公開鍵の作成方法</p>
+    <p class="item">秘密鍵と公開鍵の確認方法</p>
+    <p class="item">Pythonによる鍵の設定方法</p>
+    <p class="item">PythonによるRSA暗号の動作確認</p>
+  <h3>23 楕円曲線暗号</3>
+    <p class="item">楕円曲線</p>
+    <p class="item">楕円曲線上の演算</p>
+    <p class="item">楕円曲線の加算公式</p>
+    <p class="item">ECDHPとECDLP</p>
+    <p class="item">ECDH鍵共有</p>
+    <p class="item">楕円曲線暗号の特長</p>
+  <h3>24 中間者攻撃</3>
+    <p class="item">ECDH鍵共有への中間者攻撃</p>
+    <p class="item">公開鍵暗号への中間者攻撃</p>
+<h2>5章 認証</h2>
+  <h3>25 ハッシュ関数</3>
+    <p class="item">指紋とハッシュ関数</p>
+    <p class="item">ハッシュ関数とは</p>
+    <p class="item">誕生日パラドックス</p>
+    <p class="item">ハッシュ関数の歴史</p>
+    <p class="item">パスワードとハッシュ関数</p>
+    <p class="item">パスワードの安全な保存方法</p>
+    <p class="item">ファイルのパスワード暗号化</p>
+  <h3>26 SHA-2とSHA-3</3>
+    <p class="item">SHA-2</p>
+    <p class="item">SHA-3</p>
+    <p class="item">安全性</p>
+  <h3>27 SHA-1の衝突</3>
+    <p class="item">SHA-1への攻撃の歴史</p>
+    <p class="item">衝突したPDFとSHA-1のアルゴリズム</p>
+    <p class="item">衝突困難性の破り方</p>
+    <p class="item">PDFに2個のJPEGを埋め込む方法</p>
+  <h3>28 メッセージ認証符号</3>
+    <p class="item">MACのアルゴリズム</p>
+    <p class="item">完全性と秘匿性</p>
+    <p class="item">MACの安全性</p>
+    <p class="item">MACの構成法</p>
+  <h3>29 署名</3>
+    <p class="item">紙の署名とデジタル署名</p>
+    <p class="item">署名のモデル</p>
+    <p class="item">署名の安全性</p>
+    <p class="item">MACと署名</p>
+    <p class="item">ECDSA</p>
+    <p class="item">公開鍵認証</p>
+    <p class="item">FIDO</p>
+  <h3>30 サイドチャネル攻撃</3>
+    <p class="item">電力解析攻撃</p>
+    <p class="item">コールド・ブート攻撃</p>
+  <h3>31 タイムスタンプ</3>
+    <p class="item">否認防止と署名の失効</p>
+    <p class="item">ハッシュ値の連鎖によるタイムスタンプ</p>
+    <p class="item">署名を用いたタイムスタンプ</p>
+    <p class="item">日本のタイムスタンプ</p>
+  <h3>32 ブロックチェーンとビットコイン</3>
+    <p class="item">ブロックチェーン</p>
+    <p class="item">ビットコイン</p>
+    <p class="item">トランザクション</p>
+    <p class="item">二重送金の防止とマイニング</p>
+<h2>6章 公開鍵基盤</h2>
+  <h3>33 公開鍵基盤</3>
+    <p class="item">互いに依存する暗号技術</p>
+    <p class="item">信用の輪</p>
+    <p class="item">公開鍵基盤と認証局</p>
+    <p class="item">フィンガープリント</p>
+  <h3>34 公開鍵証明書の失効</3>
+    <p class="item">証明書失効リスト</p>
+    <p class="item">CRLの問題点</p>
+    <p class="item">OCSP</p>
+    <p class="item">OCSPステープリング</p>
+    <p class="item">その他の方法</p>
+  <h3>35 公開鍵証明書と電子証明書の発行方法</3>
+    <p class="item">ドメイン名</p>
+    <p class="item">ドメイン認証</p>
+    <p class="item">ドメイン認証の問題点</p>
+    <p class="item">組織認証</p>
+    <p class="item">拡張認証</p>
+    <p class="item">署名の電子証明書</p>
+  <h3>36 証明書の透明性</3>
+    <p class="item">問題のある認証局や証明書</p>
+    <p class="item">証明書の透明性</p>
+<h2>7章 TLS</h2>
+  <h3>37 TLS</3>
+    <p class="item">HTTPとHTTPS</p>
+    <p class="item">SSL/TLSの歴史</p>
+    <p class="item">TLS 1.3の特長</p>
+    <p class="item">ハンドシェイクの効率化</p>
+    <p class="item">暗号化アルゴリズムの整備</p>
+    <p class="item">新しい鍵導出アルゴリズム</p>
+    <p class="item">形式手法による安全性検証</p>
+  <h3>38 認証付き暗号</3>
+    <p class="item">秘匿性と完全性</p>
+    <p class="item">AEADのアルゴリズム</p>
+    <p class="item">AES-GCM</p>
+    <p class="item">ChaCha20-Poly1305</p>
+  <h3>39 前方秘匿性</3>
+    <p class="item">盗聴と秘密鍵の漏洩</p>
+    <p class="item">前方秘匿性</p>
+<h2>8章 ネットワークセキュリティ</h2>
+  <h3>40 DNS</3>
+    <p class="item">権威DNSサーバとキャッシュDNSサーバ</p>
+    <p class="item">キャッシュ・ポイズニング</p>
+    <p class="item">DNSSEC</p>
+    <p class="item">パブリックDNSサーバ</p>
+    <p class="item">DoTとDoH</p>
+    <p class="item">ESNIとECH</p>
+    <p class="item">HPKE</p>
+  <h3>41 メール</3>
+    <p class="item">SMTPとPOP3</p>
+    <p class="item">S/MIME</p>
+    <p class="item">Webメール</p>
+  <h3>42 VPN</3>
+    <p class="item">インターネットプロトコルスイート</p>
+    <p class="item">データ構造</p>
+    <p class="item">LANからインターネットへ</p>
+    <p class="item">VPN</p>
+    <p class="item">VPNの種別</p>
+    <p class="item">IPsec</p>
+  <h3>43 HTTP/3</3>
+    <p class="item">HTTP/2</p>
+    <p class="item">QUIC</p>
+    <p class="item">HTTP/3</p>
+  <h3>44 無線LAN</3>
+    <p class="item">無線LANの概要</p>
+    <p class="item">スプーフィングと認証解除攻撃</p>
+    <p class="item">WEP</p>
+    <p class="item">WPA2</p>
+    <p class="item">KRACK</p>
+    <p class="item">WPA3</p>
+<h2>9章 高機能な暗号技術</h2>
+  <h3>45 準同型暗号</3>
+    <p class="item">準同型</p>
+    <p class="item">加法準同型暗号</p>
+    <p class="item">完全準同型暗号</p>
+    <p class="item">準同型暗号の種類と用途</p>
+  <h3>46 秘密計算</3>
+    <p class="item">MPC</p>
+    <p class="item">秘密分散</p>
+    <p class="item">VSSとDKGとBLS署名</p>
+    <p class="item">3PC</p>
+    <p class="item">3PCの詳細</p>
+  <h3>47 ゼロ知識証明</3>
+    <p class="item">動機</p>
+    <p class="item">ゼロ知識証明</p>
+    <p class="item">ゼロ知識証明の性質</p>
+    <p class="item">ゼロ知識証明とブロックチェーン</p>
+  <h3>48 量子コンピュータ</3>
+    <p class="item">量子ビットと観測</p>
+    <p class="item">量子ゲート</p>
+    <p class="item">CNOTゲートと量子もつれ</p>
+    <p class="item">量子コンピュータにおける計算</p>
+    <p class="item">量子超越性</p>
+    <p class="item">暗号技術に対する影響</p>
+    <p class="item">量子ゲート方式と量子アニーリング方式</p>
+    <p class="item">量子鍵配送</p>
+    <p class="item">耐量子計算機暗号</p>
+
+<h2>著者</h2>
+<p>光成滋生<a href="https://twitter.com/herumi">@herumi</a>(<code>herumi@nifty.com</code>)</p>
+</div>
+
+
+<div id="right">
+<p><img src="book.jpg" alt="表紙" width="400"></p>
+</div>
+
+</body>
+</html>
