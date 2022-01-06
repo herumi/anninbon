@@ -11,7 +11,7 @@
 
 ## sec.29 署名
 
->p.172 「(署名鍵)sは認証器の内部に安全に保存する。」
+>p.172 「（署名鍵）sは認証器の内部に安全に保存する。」
 
 署名鍵の保存方法にはいくつか方法があります。
 
@@ -20,4 +20,14 @@
 この方法だと認証器に保存する必要がないのでストレージの容量が少なくて済みます。
 ただし、認証時にRPから認証器にその情報を送ってもらって復号する必要があります。
 
-["6.2.2. Credential Storage Modality"](https://www.w3.org/TR/webauthn-3/#sctn-credential-storage-modality)参照
+「[6.2.2. Credential Storage Modality](https://www.w3.org/TR/webauthn-3/#sctn-credential-storage-modality)」参照
+
+## sec.31 タイムスタンプ
+
+- ハッシュ値を連鎖させるリンクトークン方式はブロックチェーンの肝ですが、タイムスタンプの規格としては世界的に使われない傾向にあります。
+  - NTTデータのSecureSealは2020年に終了しました。
+- 現在は時刻認証局のTSA証明書を使ったPKI方式が主流です。
+- [総務省のタイムスタンプについて](https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/ninshou-law/timestamp.html)
+  - 2021年7月、[日本データ通信協会](https://www.dekyo.or.jp/)が日本のタイムスタンプサービスの指定調査機関として[時刻認定業務の受け付け開始](https://www.dekyo.or.jp/tb/data/top/20210730.pdf)しました。
+- PKI方式のタイムスタンプは通常10年保護されます。そしてタイムスタンプがついたデータやそれを検証する認証局の公開鍵証明書などをまとめて別のタイムスタンプをつけること（アーカイブタイムスタンプ）でより長い有効期間を得られます。
+  - [第10回 電子認証、タイムスタンプ、そして長期署名－後編－](https://www.otsuka-shokai.co.jp/erpnavi/topics/column/digital-evidence/chokishomei2.html)
