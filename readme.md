@@ -29,5 +29,5 @@
 - 現在は時刻認証局のTSA証明書を使ったPKI方式が主流です。
 - [総務省のタイムスタンプについて](https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/ninshou-law/timestamp.html)
   - 2021年7月、[日本データ通信協会](https://www.dekyo.or.jp/)が日本のタイムスタンプサービスの指定調査機関として[時刻認定業務の受け付け開始](https://www.dekyo.or.jp/tb/data/top/20210730.pdf)しました。
-- PKI方式のタイムスタンプは通常10年保護されます。そしてタイムスタンプがついたデータやそれを検証する認証局の公開鍵証明書などをまとめて別のタイムスタンプをつけること（アーカイブタイムスタンプ）でより長い有効期間を得られます。
+- PKI方式のタイムスタンプは通常10年保証されます。そしてタイムスタンプがついたデータやそれを検証する認証局の公開鍵証明書などをまとめて別のタイムスタンプをつけること（アーカイブタイムスタンプ）でより長い有効期間を得られます。
   - [第10回 電子認証、タイムスタンプ、そして長期署名－後編－](https://www.otsuka-shokai.co.jp/erpnavi/topics/column/digital-evidence/chokishomei2.html)
