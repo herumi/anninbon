@@ -77,6 +77,8 @@ A. マークル・ダンガード構成は内部状態と最後のハッシュ�
 他には「信頼の輪」「信頼の網」などの訳があります。
 [「信頼できる OpenPGP 公開鍵を提供する公開鍵サーバ OpenPKSD Trusted Keyserver 開発成果報告書」](https://www.ipa.go.jp/files/000013730.pdf)は「信頼の輪」を使っています。
 
+cf. [信用と信頼の違い](https://www.weblio.jp/content/%E4%BF%A1%E7%94%A8%E3%81%A8%E4%BF%A1%E9%A0%BC%E3%81%AE%E9%81%95%E3%81%84)
+
 >p.196 GPKIとFirefox
 
 [Add Renewed Japanese Government Application CA Root certificate](https://bugzilla.mozilla.org/show_bug.cgi?id=870185)で議論の経緯が見られます。
