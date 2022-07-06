@@ -23,6 +23,12 @@ A. 本では省略していますが数学的には厳密な定式化をしま�
 `/dev/urandom`がIntelの乱数生成命令rdrandがハックされた場合に制御できる問題がLinux Kernel 3.8.13に存在した例。
 - [@DefuseSec](https://twitter.com/DefuseSec/status/408975222163795969)
 
+## sec.23 楕円曲線暗号
+
+>p.134 ECDHPとECDLP
+
+この節のaやbは前節の楕円曲線の加算公式に出てくるa, bとは無関係の勝手な数を表します。
+
 ## sec.26 SHA-2とSHA-3
 
 パディングとpadding
